@@ -1,0 +1,173 @@
+:root {
+  --wine-red: #C7375F;
+  --bright-red: #D42D2F;
+  --dark-green: #344D2F;
+  --light-green: #77A047;
+  --gold: #FAC57D;
+  --snow: #F0F4F7;
+}
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1608407946320-2df11862073d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80");
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caveat', cursive;
+    
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.86);
+    font-size: 35px;    
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    margin-bottom: 1em;
+    border:2px solid green;
+    box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -webkit-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -moz-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+}
+
+.options {
+    width: 320px;
+    min-width:315px;
+    height: 120px;
+    border-radius: 10px;
+    background: rgba(0, 76, 0, 0.67);
+    font-size: 21px;    
+    font-weight:bold;
+    text-align: center;
+    padding: 0.5em;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-top:5px;
+    box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -webkit-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -moz-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+}
+.options2 {
+    width: 315px;
+    min-width:315px;
+    height: 120px;
+    border-radius: 10px;
+    background: rgba(0, 76, 0, 0.67);
+    font-size: 21px;    
+    font-weight:bold;
+    text-align: center;
+    color:white;
+    padding: 0.5em;
+    position: relative;
+    margin-bottom: 0.3em;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    margin-top:10px;
+    box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -webkit-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -moz-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+}
+
+
+.options2 input {
+    width:100%;
+}
+
+.options2 button {
+    
+    margin-top:12px !important;
+    float:right;
+}
+
+.addbtnandtext {
+    padding-top:42px !important;
+}
+
+p {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   font-weight: 700;
+   transform: translate(-50%, -50%);
+}
+
+button {
+    border: none;
+    background-color: rgba(255, 0, 0, 0.67);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: 'Caveat', cursive;
+    margin-top:-15px !important;
+    color:white;
+        box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -webkit-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+    -moz-box-shadow: -1px 1px 33px -2px rgba(255,255,255,0.95);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.67);
+    transform: scale(1.05) ;
+    -webkit-transform: scale(1.05) ;
+    -moz-transform: scale(1.05) ;
+}
+
+#picdisplay {
+    position: absolute;
+    top:10px;
+    right:15px;
+    margin: 0 auto;
+    zoom:1.5;
+    opacity: 1 !important;
+}
+
+#picdisplay2 {
+    position: absolute;
+    top:10px;
+    left:15px;
+    margin: 0 auto;
+    zoom:1.5;
+    opacity: 1 !important;
+}
+
+.options,
+    .titles{
+        width:30%;
+        float:left;
+        margin-top:11px;
+        background:rgba(0, 110, 0, 0.26);
+        color:white;
+    }
+    input {
+        width:170px;
+        float:right;
+        margin-top:9px;
+        text-align:center;
+        border:2px solid green;
+        background:rgba(0, 110, 0, 0.26);
+        color:white;
+        font-family: 'Caveat', cursive;
+    }
+    select {
+        border:2px solid green;
+        background:rgba(0, 110, 0, 0.26);
+        color:white;
+    }
+
+.todisplay {
+    margin-top:20px;
+}
+
+#btnadd {
+    padding:5px 35px !important;
+}

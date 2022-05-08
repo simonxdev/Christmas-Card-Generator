@@ -1,0 +1,34 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="options" id="options">
+            <label for="pics">Choose Pic:</label>
+            <select name="pics" id="pics">
+            <option value="🎅🏾">🎅🏾</option>
+            <option value="🎄">🎄</option>
+            <option value="🤶">🤶</option>
+            </select>
+            <div><span class="titles">To:</span><input type="text" id="toname" name="toname"></div>
+            <div><span class="titles">From:</span><input type="text" id="fromname" name="toname"></div>
+        </div>
+        <div class="options2" id="options2">
+        <div class="addmessage">
+                <h3>Add custom Message:</h3>
+                <input type="text" id="addmessage" name="addmessage">
+                <div class="addbtnandtext"><span id="messages">Available Messages:<span id="messagecount"> 5</span></span><button id="btnadd">Add</button></div>
+            </div>
+        </div>
+        <div class="card" id="card">
+            <span id="picdisplay"></span><span id="picdisplay2"></span>
+            <p id="todisplay"></p>
+            <p id="greeting-display"></p>
+        </div>
+        <button id="btn">Write card</button>
+        <script src="index.js"></script>
+    </body>
+</html>
